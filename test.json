@@ -1,0 +1,38 @@
+{
+  "modelId": "meta.llama2-70b-chat-v1",
+  "contentType": "application/json",
+  "accept": "application/json",
+  "body": {
+    "prompt": "[INST]You are a helpful assistant[/INST]",
+    "max_gen_len": 512,
+    "temperature": 0.5,
+    "top_p": 0.9
+
+  }
+}
+
+
+
+{
+  "modelId": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+  "contentType": "application/json",
+  "accept": "application/json",
+  "body": {
+    "prompt": "\n\nHuman: You are an expert social media assistant.\n\nAssistant:",
+    "max_tokens_to_sample": 300,
+    "temperature": 0.5,
+    "top_p": 0.9
+  }
+}
+
+{
+   "modelId": "amazon.titan-text-premier-v1:0",
+  "contentType": "application/json",
+  "accept": "application/json",
+   "body": {
+    "inputText": "Explain cloud computing",
+      "maxTokenCount": 200,
+      "temperature": 0.7,
+    "top_p": 0.9
+  }
+}
